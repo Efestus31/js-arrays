@@ -19,3 +19,5 @@ const longNames = teachers.filter(teacher => teacher.length >= 5);
 console.log(longNames); // [ 'Nathan', 'Ed', 'Fabio', 'Phil', 'Carlo', 'Lewis', 'Luca' ]
 
 // 3. Rimuovi 'Ed' dall'array teachers
+const filtered_teachers = teachers.filter(teacher => teacher !== 'Ed');
+console.log(filtered_teachers); // [ 'Nathan', 'Fabio', 'Phil', 'Carlo', 'Lewis', 'Luca' ]
